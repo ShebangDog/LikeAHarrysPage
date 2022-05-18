@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.photoFrame {
+  height: 50%;
+  background-size: cover;
+  background-position: center center;
+
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+.photoFrame .content {
+  grid-area: 1 / 1;
+  text-align: center;
+  font-size: 64px;
+  margin: auto;
+}
+
+.fixed {
+  background-attachment: fixed;
+}
+
+.random1 {
+  background-image: url("https://picsum.photos/1024/800/?random=1");
+}
+
+.random2 {
+  background-image: url("https://picsum.photos/1024/800/?random=2");
+}
+
+.random3 {
+  background-image: url("https://picsum.photos/1024/800/?random=3");
+}
+
+.random4 {
+  background-image: url("https://picsum.photos/1024/800/?random=4");
+}
+
+.random5 {
+  background-image: url("https://picsum.photos/1024/800/?random=5");
+}
+
+.random6 {
+  background-image: url("https://picsum.photos/1024/800/?random=6");
+}
+
+.overlayBlack {
+  grid-area: 1 / 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
